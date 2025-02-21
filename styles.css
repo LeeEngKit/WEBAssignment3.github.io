@@ -1,0 +1,129 @@
+body {
+    background-color: #EEEEEE;
+    font-family: "Playwrite FR Moderne", serif !important;
+}
+
+/* Text */
+.space-grotesk-0,
+.fs-4,
+.nav-link,
+#footerbar {
+    font-family: "Space Grotesk", sans-serif !important;
+}
+
+.playwrite-fr-moderne-0 {
+    font-family: "Playwrite FR Moderne", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fs-4 {
+    font-family: "Space Grotesk", serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+/* Header */
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: #8E1616 !important;
+}
+
+.nav-link:hover {
+    color: #8E1616 !important;
+}
+
+.nav-link.active:hover {
+    color: #D84040 !important;
+}
+
+.navbar {
+    background-color: #1D1616 !important;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 500px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+}
+
+/* body */
+.col-lg-6 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Heroes */
+.hero-container {
+    background-color: #D46A6A;
+    border-width: 5px;
+}
+
+.hero-image {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+
+/* Footer */
+#footerbar {
+    background-color: #8E1616;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#footerbar img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+#footerbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footerbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#footerbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#footerbar .nav-link {
+    color: white !important; /* Makes text white */
+}
+
+#footerbar .nav-link:hover {
+    color: #D84040 !important; /* Optional: Change color on hover */
+}
+
+
+.btn-outline-success {
+    border-color: #D84040 !important; /* Red border */
+    color: #D84040 !important; /* Red text */
+}
+
+.btn-outline-success:hover {
+    background-color: #D84040 !important; /* Red background on hover */
+    color: white !important; /* White text on hover */
+}
